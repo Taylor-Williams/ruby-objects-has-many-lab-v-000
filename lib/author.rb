@@ -18,7 +18,7 @@ class Author
     new_post = Post.new(post)
     new_post.author = self
     posts << new_post
-    total_posts += 1
+    @@total_posts += 1
     new_post
   end
 
