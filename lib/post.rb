@@ -2,6 +2,6 @@ class Post
   attr_accessor :title, :author
 
   def initialize(title)
-    @title = tilte
+    @title = title
   end
 end
