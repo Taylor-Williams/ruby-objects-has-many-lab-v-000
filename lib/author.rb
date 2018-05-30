@@ -15,5 +15,6 @@ class Author
     new_post = Post.new(post)
     new_post.author = self
     posts << new_post
+    new_post
   end
 end
