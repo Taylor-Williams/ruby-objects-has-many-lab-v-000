@@ -21,4 +21,8 @@ class Author
     total_posts += 1
     new_post
   end
+
+  def self.post_count
+    @@total_posts
+  end
 end
