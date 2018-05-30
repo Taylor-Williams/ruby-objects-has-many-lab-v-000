@@ -10,5 +10,5 @@ class Song
   def self.allsongs
     @@all.length
   end
-  
+
 end
