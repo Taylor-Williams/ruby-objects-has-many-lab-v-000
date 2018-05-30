@@ -7,7 +7,7 @@ class Song
     @@all << self
   end
 
-  def self.allsongs
+  def self.all_songs
     @@all.length
   end
 
