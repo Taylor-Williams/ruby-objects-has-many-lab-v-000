@@ -19,6 +19,6 @@ class Artist
   end
 
   def self.song_count
-    return songs.length
+    return self.songs[0].@@all.length
   end
 end
